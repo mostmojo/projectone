@@ -17,10 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-// Route::get('/padawan', function () {
-// 	return view('padawan');
-// });
-
-
 Route::get('/posts/{post}', 'PostsController@show');
